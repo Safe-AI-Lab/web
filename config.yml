@@ -1,0 +1,20 @@
+
+title: “SAIL”
+description: “A simple GitHub Pages site with Seminars and Publications.”
+baseurl: “”       # (string) if you serve from a subpath, otherwise leave blank
+url: “https://<your-username>.github.io”  # change <your-username> accordingly
+
+theme: null       # we’re using a custom layout, so no built-in theme
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Navigation items (optional; used below in default.html)
+nav:
+  - title: “Home”
+    url: “/”
+  - title: “Seminars”
+    url: “/seminars/”
+  - title: “Publications”
+    url: “/publications/”
